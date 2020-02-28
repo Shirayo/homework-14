@@ -14,6 +14,7 @@
 		848ACF3024072BD700820DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF2F24072BD700820DE9 /* Assets.xcassets */; };
 		848ACF3324072BD700820DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF3124072BD700820DE9 /* LaunchScreen.storyboard */; };
 		848ACF3B2408F73900820DE9 /* FillDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF3A2408F73900820DE9 /* FillDataViewController.swift */; };
+		848ACF3D2409729E00820DE9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF3C2409729E00820DE9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		848ACF3224072BD700820DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848ACF3424072BD700820DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848ACF3A2408F73900820DE9 /* FillDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillDataViewController.swift; sourceTree = "<group>"; };
+		848ACF3C2409729E00820DE9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				848ACF2824072BD400820DE9 /* SceneDelegate.swift */,
 				848ACF2A24072BD400820DE9 /* MainViewController.swift */,
 				848ACF3A2408F73900820DE9 /* FillDataViewController.swift */,
+				848ACF3C2409729E00820DE9 /* User.swift */,
 				848ACF2C24072BD400820DE9 /* Main.storyboard */,
 				848ACF2F24072BD700820DE9 /* Assets.xcassets */,
 				848ACF3124072BD700820DE9 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				848ACF2B24072BD400820DE9 /* MainViewController.swift in Sources */,
 				848ACF2724072BD400820DE9 /* AppDelegate.swift in Sources */,
 				848ACF2924072BD400820DE9 /* SceneDelegate.swift in Sources */,
+				848ACF3D2409729E00820DE9 /* User.swift in Sources */,
 				848ACF3B2408F73900820DE9 /* FillDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

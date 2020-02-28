@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController, FillDataViewControllerDelegate {
 
     @IBOutlet weak var genderImage: UIImageView!
     @IBOutlet weak var firstNameLabel: UILabel!
@@ -17,19 +17,27 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        genderImage.image = UIImage(named: "empty")
+        let user = UserDefaults.standard.value(forKey: "createUser") as? User
+        if let user = user {
+            firstNameLabel.text = user.firstName
+            lastNameLabel.text = user.lastName
+            genderImage.image = user.profileImage
+        } else {
+            genderImage.image = UIImage(named: "empty")
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let fillDataViewController = segue.destination as! FillDataViewController
         fillDataViewController.modalPresentationStyle = .fullScreen
-        fillDataViewController.finishHandler = saveData
+        fillDataViewController.delegate = self
     }
     
-    func saveData(firstName: String, lastName: String, genderImage: UIImage) {
-        firstNameLabel.text = firstName
-        lastNameLabel.text = lastName
-        self.genderImage.image = genderImage
+    func saveData(_ user: User) {
+        firstNameLabel.text = user.firstName
+        lastNameLabel.text = user.lastName
+        genderImage.image = user.profileImage
     }
 }
+
 

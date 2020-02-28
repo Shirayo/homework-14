@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		848ACF2724072BD400820DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF2624072BD400820DE9 /* AppDelegate.swift */; };
 		848ACF2924072BD400820DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF2824072BD400820DE9 /* SceneDelegate.swift */; };
-		848ACF2B24072BD400820DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF2A24072BD400820DE9 /* ViewController.swift */; };
+		848ACF2B24072BD400820DE9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF2A24072BD400820DE9 /* MainViewController.swift */; };
 		848ACF2E24072BD400820DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF2C24072BD400820DE9 /* Main.storyboard */; };
 		848ACF3024072BD700820DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF2F24072BD700820DE9 /* Assets.xcassets */; };
 		848ACF3324072BD700820DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ACF3124072BD700820DE9 /* LaunchScreen.storyboard */; };
+		848ACF3B2408F73900820DE9 /* FillDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ACF3A2408F73900820DE9 /* FillDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		848ACF2324072BD400820DE9 /* homework №14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework №14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848ACF2624072BD400820DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848ACF2824072BD400820DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848ACF2A24072BD400820DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848ACF2A24072BD400820DE9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		848ACF2D24072BD400820DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848ACF2F24072BD700820DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848ACF3224072BD700820DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848ACF3424072BD700820DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848ACF3A2408F73900820DE9 /* FillDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				848ACF2624072BD400820DE9 /* AppDelegate.swift */,
 				848ACF2824072BD400820DE9 /* SceneDelegate.swift */,
-				848ACF2A24072BD400820DE9 /* ViewController.swift */,
+				848ACF2A24072BD400820DE9 /* MainViewController.swift */,
+				848ACF3A2408F73900820DE9 /* FillDataViewController.swift */,
 				848ACF2C24072BD400820DE9 /* Main.storyboard */,
 				848ACF2F24072BD700820DE9 /* Assets.xcassets */,
 				848ACF3124072BD700820DE9 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848ACF2B24072BD400820DE9 /* ViewController.swift in Sources */,
+				848ACF2B24072BD400820DE9 /* MainViewController.swift in Sources */,
 				848ACF2724072BD400820DE9 /* AppDelegate.swift in Sources */,
 				848ACF2924072BD400820DE9 /* SceneDelegate.swift in Sources */,
+				848ACF3B2408F73900820DE9 /* FillDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
